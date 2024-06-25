@@ -1,0 +1,26 @@
+#logo {
+    filter: brightness(0) invert(1);
+    width: 36px;
+    transition: filter 0.2s ease;
+}
+
+#logo:hover {
+    filter: brightness(150%);
+    width: 36px;
+}
+
+.btn-social-icon, .navbar-text {
+    border: transparent;
+}
+
+.navbar-social-icon {
+    color: black;
+}
+
+.btn-social-icon:hover .navbar-social-icon {
+    color: inherit;
+}
+
+.nav-text-nav:hover {
+    color: rgb(164, 164, 164);
+}
